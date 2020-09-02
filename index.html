@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Profile</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center">Personal Profile</h1>
+    <br />
+
+    <form action="" method="post">
+      <p>
+        Ensure to fill all fields marked
+        <span class="required"> &nbsp; &nbsp;*</span>
+      </p>
+      <p class="input-group-text" id="inputGroup-sizing-sm">
+        First Name:
+        <input
+          class="form-control"
+          type="text"
+          name="fname"
+          value=""
+          id=""
+        /><span class="required">*</span>
+      </p>
+      <p class="input-group-text" id="inputGroup-sizing-sm">
+        Last Name:
+        <input
+          class="form-control"
+          type="text"
+          name="lname"
+          value=""
+          id=""
+        /><span class="required">*</span>
+      </p>
+      <p class="input-group-text" id="inputGroup-sizing-sm">
+        Email Address:
+        <input
+          class="form-control"
+          type="email"
+          value=""
+          name="email"
+          id="exampleInputEmail1"
+        /><span class="required">*</span>
+      </p>
+      <p class="input-group-text" id="inputGroup-sizing-sm">
+        Phone Number:
+        <input
+          class="form-control"
+          type="number"
+          value=""
+          name="phone"
+          id=""
+        /><span class="required">*</span>
+      </p>
+      <p class="input-group-text" id="inputGroup-sizing-sm">
+        Gender: &nbsp; &nbsp; &nbsp;
+        <input type="radio" name="gender" id="" value="male" />Male &nbsp;
+        &nbsp; &nbsp; &nbsp;
+        <input type="radio" name="gender" id="" value="female" />Female<span
+          class="required"
+          >*</span
+        >
+      </p>
+
+      <button
+        class="btn btn-md btn-primary"
+        type="submit"
+        name="submit"
+        onclick="change()"
+      >
+        <a href="#"> CREATE PROFILE </a>
+      </button>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
